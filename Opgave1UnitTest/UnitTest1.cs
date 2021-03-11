@@ -11,11 +11,7 @@ namespace Opgave1UnitTest
         [TestInitialize]
         public void test()
         {
-            beer = new Beer();
-            beer.Id = 1;
-            beer.Name = "Tuborg";
-            beer.Price = 14;
-            beer.Abv = 4.6;
+            beer = new Beer(1, "Tuborg", 14, 4.6);
         }
         [TestMethod]
         public void TestMethod_Name_too_short()

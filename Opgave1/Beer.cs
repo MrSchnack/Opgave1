@@ -35,8 +35,14 @@ namespace Opgave1
             }
 
         }
+        public Beer(int id, string name, double price, double abv)
+        {
+            Id = id;
+            Name = name;
+            Price = price;
+            Abv = abv;
 
-
+        }
 
 
     }
